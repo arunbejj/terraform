@@ -1,5 +1,6 @@
 # terraform
 https://github.com/ned1313/Implementing-Terraform-on-Microsoft-Azure
 
-# set git remote
+## set git remote
+git remote add origin https://github.com/arunbejj/terraform.git
 
