@@ -6,15 +6,17 @@
 trigger:
 - main
 
+variables:
+  System.Debug: true
 pool: default
   # vmImage: ubuntu-latest
-
-
 
 steps:
 - script: echo Hello, world!
   continueOnError: true 
   displayName: 'Run a one-line script'
+  # System.Debug: true
+
 
 # - script: |
 #     echo Add other tasks to build, test, and deploy your project.
